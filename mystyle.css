@@ -1,0 +1,161 @@
+
+body {
+    background-color: #ffffff;
+    background-image: url("images/background.png");
+    background-repeat: repeat-x;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: small;
+}
+p {
+    margin: 0;
+    padding: 5px 0;
+}
+h1 {
+    font-family: Geneva,Arial,Helvetica,sans-serif;
+    font-size: 18pt;
+    font-style: normal;
+    margin: 0 0 20px;
+    padding: 0;
+    text-align: center;
+}
+h2 {
+    font-family: Geneva,Arial,Helvetica,sans-serif;
+    font-size: medium;
+    margin: 0 0 5px;
+    padding: 0;
+    text-align: left;
+}
+#searchbox {
+
+    margin-bottom: 0px;
+    margin-top: 18px;
+
+}
+
+#searchContent{
+    background:#FFFFFF;
+    font-size: 13px;
+    font-variant: normal;
+    height: 16px;
+    line-height: normal;
+    padding: 4px;
+    width: 258px;
+    margin-left:340px;
+}
+
+
+#clickOnce{
+    background: url(images/templatemo_search_button.gif);
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    height: 25px;
+    padding: 0 6px;
+    text-align: center;
+    vertical-align: bottom;
+    white-space: pre;
+    width: 66px;
+}
+
+#container {
+    background: #003 url(images/templatemo_top_panel_background.jpg) no-repeat;
+    border: 1px solid #000000;
+    height: auto;
+    margin: 0 auto;
+    overflow: visible;
+    visibility: visible;
+    width: 1000px;
+    margin-left: 140px;
+
+}
+#logo {
+    height: 100px;
+    overflow: hidden;
+    width: 100%;
+
+}
+#navigation {
+    border-left: 20px solid #000000;
+    border-right: 0px solid #000000;
+    overflow: hidden;
+    width: 100%;
+    background: #750a20 url(images/templatemo_menu_bg.gif) repeat-x;
+}
+.activeTabButton {
+    background-color: #ffffff;
+    border-right: 1px solid #999999;
+    color: #000000;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    text-align: center;
+    text-decoration: none;
+    width: 115px;
+}
+.inactiveTabButton{
+    margin-top: 2px;
+    background: #750a20 url(images/templatemo_menu_bg.gif) repeat-x;
+    border-bottom: 1px solid #999999;
+    border-right: 1px solid ;
+    color:white;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 2px;
+    padding-top: 3px;
+    text-align: center;
+    text-decoration: none;
+    width: 113px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+}
+
+#footer {
+    overflow: hidden;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    width: 840px;
+}
+.copyrighttext {
+    color:white;
+    margin-left: 150px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10pt;
+    padding-top: 7px;
+}
+
+#timeline{
+   position:absolute;
+   right:50px;
+   width: 240px;
+
+}
+
+#addContent{
+text-align: center;
+font:18px Georgia, Garamond, Serif;
+color:white;
+
+}
+#content {   background-color: #ffffff;
+    margin-right: 50px;
+    margin-left: 20px; border: 1pt solid black; overflow: hidden;height:1915px;width:960px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.8), 0 15px 50px 0 rgba(0, 0, 0, 0.8);}
+#title {font-family: Arial, Helvetica,sans-serif;sans-serif;border: 1pt solid grey; clear: both;font-size: 15pt; font-weight: bold;color:#000;}
+.sizeDate{padding-top:15px;padding-bottom:10px;font-family: Arial, Helvetica, sans-serif;font-size: 12pt;color:#09F;}
+.pic{float: right; margin-top: 0px;margin-bottom: 33px; width: 250px; height:150px; box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.8), 0 15px 50px 0 rgba(0, 0, 0, 0.8);}
+.content-text {font-family: Arial, Helvetica, sans-serif; font-size: 12.5pt; font-weight: bold;}
+
+.movie {font-family: Arial, Helvetica, sans-serif;border: 1pt solid grey; clear: both;font-size: 15pt; font-weight: bold;color:blue;}
+.poster {float: right; margin: 1ex; width: 250px; height:150px; box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.8), 0 15px 50px 0 rgba(0, 0, 0, 0.8);}
+.newsTitle {font-family: Arial, Helvetica, sans-serif; font-size: 12.5pt; font-weight: bold;}
+.cast {font-family: Arial, Helvetica, sans-serif; font-size: 12pt; margin-bottom: 0.5ex;}
+.critic{font-family: Arial, Helvetica, sans-serif; font-size: 12pt; font-style: italic;}
+.clear {clear: both;}
+iframe {border: solid white; width: 90px; height:30px;}
