@@ -1,4 +1,4 @@
-var baseURL = "http://content.guardianapis.com/search?api-key=ac86978e-46f4-4706-969a-69176ab65037";
+var baseURL = "https://content.guardianapis.com/search?api-key=ac86978e-46f4-4706-969a-69176ab65037";
 var tabs = [ "business", "football", "US", "politics","sport","US-election"]
 var searchQuery;
 
