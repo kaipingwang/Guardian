@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+ <!DOCTYPE>
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title></title>
  <link rel="stylesheet"  href="mystyle.css" />
- 
+
 </head>
 
 <body>
@@ -14,8 +14,8 @@
 	<!-- Begin Logo -->
 	<div id="logo">
       <div id="searchbox">
-            
-                <input type="text" name="text" id="searchContent" style="height:13px;width: 215px">
+
+                <input type="text" name="text" id="searchContent" >
                 <button id="clickOnce">Search</button>
     </div>
 
@@ -46,13 +46,13 @@
 <div id="football"></div>
 <div id="US"></div>
 <div id="business"></div>
-<div id="sport"></div>	
+<div id="sport"></div>
 <div id="US-election"></div>
 <div id="add-content"></div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-<script>   
-    
+<script>
+
         $(document).ready(function() {
 
         var apikey = "a38b837a-e535-492d-a692-64cff29c43c3";
@@ -66,9 +66,9 @@
                     url: guardiansSearchUrl + '&q=' + encodeURI(query),
                     dataType: "jsonp",
                     success: function searchCallback(data) {
-                         
+
                         var guardians = data.response.results;
-                        
+
                         ////remove previous search results before adding the new ones
                         $('#politics').empty();
                         $('#football').empty();
@@ -80,7 +80,7 @@
                         $('#addcontent').empty();
                         //receive the results
                         $('#addContent').append( 'Search key word: '+(query == ""? " none " : query)+' about ' +data.response.total +' results'+'(show maximum 50 pieces)'+'<hr/>');
-                        $.each(guardians, function(index, guardian) {      
+                        $.each(guardians, function(index, guardian) {
 							var inner='<div><div><p id="title">'+guardian.webTitle+'</p></div><p class="sizeDate">'+guardian.webPublicationDate+'</p>'+'<div><img class="pic" src="'+guardian.fields.thumbnail+'"></div><p>'+guardian.fields.standfirst+'</p>'+'<span><a href="'+guardian.webUrl+'">'+guardian.webUrl+'</a><span><div>'
 							$('#add-content').append(inner);
                              //remove the picture which cannot display
@@ -94,13 +94,13 @@
             });
 
 
-  </script> 
-  
+  </script>
+
 	</div>
 <!-- End Content -->
 	<!-- Begin Footer -->
 	<div id="footer">
-	
+
 		<p class="copyrighttext">Copyright &copy 2016</p>
   </div>
   <!-- End Footer -->
@@ -110,4 +110,3 @@
 </body>
 
 </html>
-
